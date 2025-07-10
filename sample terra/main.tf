@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
 import {
 id = /subscriptions/ae58dd56-b863-47df-8495-c7b6ca0af926/resourceGroups/test-rg
 to = azurerm_resource_group.aksrg
@@ -88,5 +85,5 @@ resource "azurerm_kubernetes_cluster_node_pool" "mem" {
   node_count            = "1"
   vm_size               = "standard_d11_v1"
 }
->>>>>>> Stashed changes
+
 
